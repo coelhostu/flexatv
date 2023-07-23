@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #AA00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 8px;
+
+
+}
+
+.profile h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.image-cropper {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.bio {
+    border-bottom: 1px solid lightgray;
+    font-size: small;
+    margin-bottom: 8px;
+}
+
+.bio p {
+    margin-bottom: 8px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+} 
